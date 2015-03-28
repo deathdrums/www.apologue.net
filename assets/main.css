@@ -73,3 +73,19 @@ width:300px; height:256px;
 div#how ul li {
 margin-top:10px;	
 }
+
+a#DemoButton {
+background:#F0F;
+border:2px #0F0 solid;
+display:block;
+color:black;
+padding:8px;
+font-family:sans-serif;
+font-size:14pt;
+text-transform:uppercase;
+text-decoration:none;
+margin:10px auto;
+width:750px;
+text-align:center;
+font-weight:bold;
+}
