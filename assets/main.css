@@ -14,9 +14,62 @@ a:visited { color:#9F9; }
 
 a:hover { text-decoration:underline; }
 
+a#GHForkLink {
+position:absolute;
+right:0;
+top:0;	
+}
+
 img.screenshot { border:6px #F0F solid; }
 
+h1, h2, h3, h4, h5, h6 { margin: 5px 0; }
 h1 { font-size:300%; }
 h1 a { color: #FF0; }
 
 h2 { color:#FF0; }
+
+ul.no-bullets {
+display:block;
+float:right;
+list-style:none;
+margin:-10px 40px 0 0; padding:0;
+width: 200px; height: 200px;
+}
+
+ul.no-bullets li {
+display:block;
+list-style:none;
+background:white;
+margin:0; padding:0;
+width:200px; height:200px;
+text-align:right;
+}
+
+div#who, div#work, div#how {
+border-top:1px #0F0 solid;
+border-left:1px #0F0 solid;
+margin-bottom:10px;
+display:block;
+padding:16px;
+}
+
+div#who {
+margin:0 auto;
+width:380px;	
+}
+
+div#work {
+margin:0 auto;
+width: 980px;	
+}
+
+div#how {
+float:right;
+text-align:center;
+margin:10px 0;
+width:300px; height:256px;
+}
+
+div#how ul li {
+margin-top:10px;	
+}
