@@ -1,32 +1,42 @@
 body {
-background:black;
-color:white;
-font-family:monospace;
+background:url("cold-spring.jpg");
+background-size:100% 140%;
+background-attachment:fixed;
+color:black;
+font-family:'Quicksand', sans-serif;
 font-size:12pt;
+text-align:center;
 }
 
 a {
-color:#0F0;
+color:navy;
+font-style:italic;
+font-weight:bold;
 text-decoration:none;
 }
-
-a:visited { color:#9F9; }
 
 a:hover { text-decoration:underline; }
 
 a#GHForkLink {
 position:absolute;
 right:0;
-top:0;	
+top:0;
 }
 
-img.screenshot { border:6px #F0F solid; }
+img.screenshot { border:6px #009 solid; }
 
-h1, h2, h3, h4, h5, h6 { margin: 5px 0; }
-h1 { font-size:300%; }
-h1 a { color: #FF0; }
+h1, h2, h3, h4, h5, h6 { margin:5px 0; }
+h1 { font-size:300%; font-style:italic; }
+h1 a { color:black; }
 
-h2 { color:#FF0; }
+h2 { font-size:120%; font-style:italic; }
+h3 { font-style:italic; }
+
+ul {
+list-style:none;
+margin:0;
+padding:0;
+}
 
 ul.no-bullets {
 display:block;
@@ -46,46 +56,28 @@ text-align:right;
 }
 
 div#who, div#work, div#how {
-border-top:1px #0F0 solid;
-border-left:1px #0F0 solid;
 margin-bottom:10px;
 display:block;
 padding:16px;
 }
 
-div#who {
-margin:0 auto;
-width:380px;	
+div#work h3 {
+font-size:400%;
 }
 
-div#work {
-margin:0 auto;
-width: 980px;	
+div#work h4 {
+font-size:200%;
+font-weight:normal;
 }
 
 div#how {
 float:right;
 text-align:center;
 margin:10px 0;
-width:300px; height:256px;
 }
 
-div#how ul li {
-margin-top:10px;	
-}
-
-a#DemoButton {
-background:#F0F;
-border:2px #0F0 solid;
-display:block;
-color:black;
-padding:8px;
-font-family:sans-serif;
-font-size:14pt;
-text-transform:uppercase;
-text-decoration:none;
-margin:10px auto;
-width:450px;
-text-align:center;
-font-weight:bold;
+div#how img {
+background-color:white;
+width:100px;
+height:100px;
 }
